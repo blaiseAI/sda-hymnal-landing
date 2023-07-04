@@ -12,8 +12,8 @@ export const metadata = {
     site_name: "SDA Kinyarwanda App",
     description:
       "Access a collection of Seventh-day Adventist Kinyarwanda Hymns on your phone",
-    url: "https://sda-kinyarwanda.vercel.app/",
-    image: "https://sda-kinyarwanda.vercel.app/icon.png",
+    url: "https://sda-kinyarwanda-hymnal.vercel.app/",
+    image: "https://sda-kinyarwanda-hymnal.vercel.app/icon.png",
     type: "website",
     locale: "en_US",
   },
