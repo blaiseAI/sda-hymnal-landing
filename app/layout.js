@@ -7,6 +7,7 @@ export const metadata = {
   title: "SDA Kinyarwanda App",
   description:
     "Access a collection of Seventh-day Adventist Kinyarwanda Hymns on your phone",
+  image: "https://sda-kinyarwanda-hymnal.vercel.app/icon.png",
   openGraph: {
     title: "SDA Kinyarwanda App",
     site_name: "SDA Kinyarwanda App",
@@ -16,6 +17,17 @@ export const metadata = {
     image: "https://sda-kinyarwanda-hymnal.vercel.app/icon.png",
     type: "website",
     locale: "en_US",
+  },
+  appLinks: {
+    ios: {
+      url: "https://apps.apple.com/ca/app/sda-kinyarwanda-hymnal/id6449814873",
+      app_store_id: "6449814873",
+    },
+    android: {
+      package:
+        "https://play.google.com/store/apps/details?id=com.devseb.sdaKinyarwandaHymnal",
+      app_name: "sdaKinyarwandaHymnal",
+    },
   },
 };
 
