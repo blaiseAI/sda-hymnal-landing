@@ -28,6 +28,15 @@ export const metadata = {
         "https://play.google.com/store/apps/details?id=com.devseb.sdaKinyarwandaHymnal",
       app_name: "sdaKinyarwandaHymnal",
     },
+    twitter: {
+      card: "summary_large_image",
+      domain: "sda-kinyarwanda-hymnal.vercel.app",
+      url: "https://sda-kinyarwanda-hymnal.vercel.app/",
+      title: "SDA Kinyarwanda App",
+      description:
+        "Access a collection of Seventh-day Adventist Kinyarwanda Hymns on your phone",
+      image: "https://sda-kinyarwanda-hymnal.vercel.app/icon.png",
+    },
   },
 };
 
