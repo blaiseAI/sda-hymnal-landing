@@ -19,12 +19,24 @@ export default function Home() {
           <nav className="menu">
             <ul className="list-unstyled d-flex mb-0">
               <li className="me-3">
-                <button className="btn btn text-decoration-none" type="button">
-                  Email
-                </button>
+                <Link
+                  className="btn btn text-decoration-none"
+                  href="mailto:blaise@hellothe.re"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get in touch at blaise@hellothe.re
+                </Link>
               </li>
               <li>
-                <button className="btn btn text-decoration-none">Github</button>
+                <Link
+                  className="btn btn text-decoration-none"
+                  href="https://github.com/blaiseAI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github
+                </Link>
               </li>
             </ul>
           </nav>
@@ -37,8 +49,30 @@ export default function Home() {
                 Experience SDA Hymns in Kinyarwanda - Anywhere, Anytime
               </p>
               <div className="d-flex mb-4">
-                <button className="btn btn-dark me-2">App Store</button>
-                <button className="btn btn-dark">Google Play</button>
+                <Link
+                  href="https://apps.apple.com/ca/app/sda-kinyarwanda-hymnal/id6449814873"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"
+                    width={120}
+                    height={60}
+                    alt="Download on the App Store"
+                  />
+                </Link>
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.devseb.sdaKinyarwandaHymnal&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="/en_badge_web_generic.png"
+                    width={150}
+                    height={60}
+                    alt="Download on the Google Play"
+                  />
+                </Link>
               </div>
               <div className="d-flex align-items-center">
                 <h3 className="me-2">1.2K</h3>
@@ -105,16 +139,20 @@ export default function Home() {
               <ul className="list-unstyled">
                 <li>
                   <a
-                    href="legal/privacy-policy"
+                    href="https://www.freeprivacypolicy.com/live/8e74bee0-1e2c-4982-8e96-7bc44044f282"
                     className="text-decoration-none text-muted"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Privacy Policy
                   </a>
                 </li>
                 <li>
                   <a
-                    href="legal/terms-conditions"
+                    href="https://www.freeprivacypolicy.com/live/0ccab47f-c4cc-493c-a448-39ce6c5c1d1a"
                     className="text-decoration-none text-muted"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Terms and Conditions
                   </a>

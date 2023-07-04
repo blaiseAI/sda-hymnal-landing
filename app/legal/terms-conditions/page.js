@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./page.module.css";
 
 export default function TermsConditions() {
   return (
@@ -31,7 +32,15 @@ export default function TermsConditions() {
       </nav>
     </header>
     <main>
-    <iframe src="https://www.freeprivacypolicy.com/live/0ccab47f-c4cc-493c-a448-39ce6c5c1d1a"></iframe>
+    <div className="iframe-container">
+        <iframe
+          className="container"
+          style={{ width: '100%', height: '100%', border: 'none' }}
+          src="https://www.freeprivacypolicy.com/live/0ccab47f-c4cc-493c-a448-39ce6c5c1d1a"
+          title="Embedded Content"
+          allowFullScreen
+        ></iframe>
+      </div>
     </main>
     </div>
   );
