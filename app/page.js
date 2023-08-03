@@ -75,7 +75,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="d-flex align-items-center">
-                <h3 className="me-2">1.2K</h3>
+                <h3 className="me-2">2.1K</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -127,7 +127,7 @@ export default function Home() {
               </p>
               <p className="small text-muted">
                 Code licensed MIT, docs CC BY 3.0. <br />
-                Currently v1.3.3.
+                Currently v1.3.8.
               </p>
               <p className="small mb-0 text-muted">
                 © {new Date().getFullYear()} Blaise Sebagabo. All Rights
