@@ -75,7 +75,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="d-flex align-items-center">
-                <h3 className="me-2">2.1K</h3>
+                <h3 className="me-2">2.7K</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
